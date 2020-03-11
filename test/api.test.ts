@@ -17,4 +17,12 @@ describe('GET /', () => {
     
     done();
   });
+
+  it('should check if azu is kireida', async done => {
+    const azu = 'kireida';
+
+    expect('kireida').toBe(azu);
+    
+    done();
+  });
 });
