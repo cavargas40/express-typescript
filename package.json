@@ -1,8 +1,12 @@
 {
   "name": "express-typescript",
   "version": "0.0.1",
+  "main": "dist/app.js",
   "description": "A starting point for Node.js express app with TS",
-  "scripts": {},
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "tets": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cavargas40/express-typescript.git"
