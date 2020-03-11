@@ -74,3 +74,23 @@ npm i -D @types/express tslint typescript
 }
 ```
 - In the snippet above, you updated the main path and added the start command to the scripts section. Taking a close look at the start command, first the tsc command is run, and then the node command. This will compile and then run the generated output with node.
+
+## Setting Up The Folder Structure
+- Now create a src folder in the root of our project directory and then create a file called app.ts within it:
+```
+mkdir src
+cd src
+touch app.ts
+```
+
+At this point, the folder structure should look like this:
+
+```
+├── node_modules/
+├── src/
+  ├── app.ts
+├── package-lock.json
+├── package.json
+├── tsconfig.json
+├── tslint.json
+```
