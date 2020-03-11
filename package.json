@@ -1,0 +1,17 @@
+{
+  "name": "express-typescript",
+  "version": "0.0.1",
+  "description": "A starting point for Node.js express app with TS",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cavargas40/express-typescript.git"
+  },
+  "author": "cavargas40@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cavargas40/express-typescript/issues"
+  },
+  "homepage": "https://github.com/cavargas40/express-typescript#readme"
+}
