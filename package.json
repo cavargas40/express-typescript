@@ -5,6 +5,7 @@
   "description": "A starting point for Node.js express app with TS",
   "scripts": {
     "start": "tsc && node dist/index.js",
+    "build": "tsc",
     "test": "jest --forceExit --coverage --verbose"
   },
   "repository": {
