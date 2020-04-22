@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
 import api from './routes';
-import './utils/env.loader';
+import './libraries/utils/env.loader';
 import bodyParser from 'body-parser'
 
 class App {

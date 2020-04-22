@@ -1,6 +1,7 @@
 import app from './App';
 import errorHandler from 'errorhandler';
-import connectMongo from './connections/mongo';
+import connectMongo from './libraries/database/mongo';
+import './libraries/database/dynamodb';
 
 const port = process.env.PORT || 3000;
 
@@ -21,3 +22,4 @@ app.listen(port, (err) => {
 });
 
 connectMongo();
+
